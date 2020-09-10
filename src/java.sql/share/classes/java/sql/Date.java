@@ -1,3 +1,7 @@
+
+
+
+
 /*
  * Copyright (c) 1996, 2016, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -64,15 +68,36 @@ public class Date extends java.util.Date {
         System.out.println("TEST");
         System.out.println("TEST");
         System.out.println("TEST");
+        System.out.println("TAAAAAAA");
     }
 
     /**
      * Constructs a <code>Date</code> object using the given milliseconds
      * time value.  If the given milliseconds value contains time
-     * information, the driver will set the time components to the
+System.out.println("AAAAA");
+    }
+
+        /**
+             * Constructs a <code>Date</code> object using the given milliseconds
+                  * time value.  If the given milliseconds value contains time
+                       * information, the driver will set the time components to the
+                            * time in the default time zone (the time zone of the Java virtual
+                                 * machine running the application) that corresponds to zero GMT.
+                                      *
+
      * time in the default time zone (the time zone of the Java virtual
      * machine running the application) that corresponds to zero GMT.
-     *
+System.out.println("AAAAA");
+    }
+
+        /**
+             * Constructs a <code>Date</code> object using the given milliseconds
+                  * time value.  If the given milliseconds value contains time
+                       * information, the driver will set the time components to the
+                            * time in the default time zone (the time zone of the Java virtual
+                                 * machine running the application) that corresponds to zero GMT.
+                                      *
+                                      
      * @param date milliseconds since January 1, 1970, 00:00:00 GMT not
      *        to exceed the milliseconds representation for the year 8099.
      *        A negative number indicates the number of milliseconds

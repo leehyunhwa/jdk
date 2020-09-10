@@ -49,6 +49,7 @@ public class SQLDataException extends SQLNonTransientException {
          * @since 1.6
          */
         public SQLDataException() {
+            System.out.println("TEST");
                  super();
         }
 

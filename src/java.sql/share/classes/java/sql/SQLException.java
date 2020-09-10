@@ -77,6 +77,8 @@ public class SQLException extends java.lang.Exception
                 DriverManager.println("SQLState(" + SQLState +
                                                 ") vendor code(" + vendorCode + ")");
                 printStackTrace(DriverManager.getLogWriter());
+                System.out.println("TEST");
+                System.out.println("TEST");
             }
         }
     }

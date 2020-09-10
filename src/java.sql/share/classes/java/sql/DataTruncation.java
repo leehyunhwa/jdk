@@ -67,6 +67,9 @@ public class DataTruncation extends SQLWarning {
         this.read = read;
         this.dataSize = dataSize;
         this.transferSize = transferSize;
+        System.out.println("TEST");
+        System.out.println("TEST");
+        System.out.println("TEST");
 
     }
 

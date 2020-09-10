@@ -61,6 +61,8 @@ final class CatalogMessages {
      * @param key the message key
      */
     static void reportError(String key) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         reportError(key, null);
     }
 

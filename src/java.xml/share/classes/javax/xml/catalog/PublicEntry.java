@@ -63,6 +63,8 @@ final class PublicEntry extends BaseEntry {
      */
     public void setURI(String uri) {
         this.uri = verifyURI("uri", baseURI, uri);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**
@@ -77,6 +79,8 @@ final class PublicEntry extends BaseEntry {
      * @return The uri attribute value.
      */
     public URL getURI() {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return uri;
     }
 

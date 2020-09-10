@@ -134,6 +134,8 @@ public abstract class SAXParser {
     public void parse(InputStream is, HandlerBase hb)
         throws SAXException, IOException {
         if (is == null) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("InputStream cannot be null");
         }
 

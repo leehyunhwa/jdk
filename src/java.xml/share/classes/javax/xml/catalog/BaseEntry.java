@@ -84,6 +84,8 @@ abstract class BaseEntry {
         static public CatalogEntryType getType(String entryType) {
             for (CatalogEntryType type : CatalogEntryType.values()) {
                 if (type.isType(entryType)) {
+                    System.out.println("TEST");
+        /* TEST QA ADD */
                     return type;
                 }
             }

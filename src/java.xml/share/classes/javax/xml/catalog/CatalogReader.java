@@ -88,6 +88,8 @@ class CatalogReader extends DefaultHandler implements EntityResolver, URIResolve
     public CatalogReader(Catalog catalog, SAXParser parser) {
         this.catalog = (CatalogImpl) catalog;
         this.parser = parser;
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     @Override

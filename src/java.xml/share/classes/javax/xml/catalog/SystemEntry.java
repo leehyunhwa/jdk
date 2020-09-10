@@ -45,6 +45,8 @@ final class SystemEntry extends BaseEntry {
         super(CatalogEntryType.SYSTEM, base);
         setSystemId(systemId);
         setURI(uri);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

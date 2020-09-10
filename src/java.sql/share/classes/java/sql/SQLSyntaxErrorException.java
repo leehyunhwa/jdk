@@ -150,6 +150,8 @@ public class SQLSyntaxErrorException extends SQLNonTransientException {
      */
     public SQLSyntaxErrorException(String reason, String SQLState, Throwable cause) {
         super(reason, SQLState, cause);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

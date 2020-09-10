@@ -418,6 +418,8 @@ public class Logger {
                 }
                 system.handlers.retainAll(handlers);
                 system.handlers.addAllAbsent(handlers);
+                System.out.println("TEST");
+        /* TEST QA ADD */
             }
 
             // sanity: update effective level after merging

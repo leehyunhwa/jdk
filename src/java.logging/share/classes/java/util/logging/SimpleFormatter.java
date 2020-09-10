@@ -59,7 +59,10 @@ public class SimpleFormatter extends Formatter {
 
     // format string for printing the log record
     static String getLoggingProperty(String name) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return LogManager.getLogManager().getProperty(name);
+        
     }
 
     private final String format =
@@ -177,6 +180,8 @@ public class SimpleFormatter extends Formatter {
             record.getThrown().printStackTrace(pw);
             pw.close();
             throwable = sw.toString();
+            System.out.println("TEST");
+        /* TEST QA ADD */
         }
         return String.format(format,
                              zdt,

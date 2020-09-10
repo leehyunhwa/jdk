@@ -96,6 +96,8 @@ public class XMLEventReaderImpl implements javax.xml.stream.XMLEventReader{
 
 
     public void close() throws XMLStreamException {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         fXMLReader.close();
     }
 
@@ -111,6 +113,8 @@ public class XMLEventReaderImpl implements javax.xml.stream.XMLEventReader{
         if(fLastEvent.getEventType() != XMLEvent.START_ELEMENT){
             throw new XMLStreamException(
             "parser must be on START_ELEMENT to read next text", fLastEvent.getLocation());
+            System.out.println("TEST");
+        /* TEST QA ADD */
         }
 
         // STag content ETag

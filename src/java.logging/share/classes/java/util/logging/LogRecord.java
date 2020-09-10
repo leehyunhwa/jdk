@@ -171,6 +171,9 @@ public class LogRecord implements java.io.Serializable {
             new ObjectStreamField("thrown", Throwable.class),
             new ObjectStreamField("loggerName", String.class),
             new ObjectStreamField("resourceBundleName", String.class),
+
+            System.out.println("TEST");
+        /* TEST QA ADD */
         };
 
     private transient boolean needToInferCaller;

@@ -43,6 +43,8 @@ final class DelegatePublic extends AltCatalog {
         super(CatalogEntryType.DELEGATEPUBLIC, base);
         setPublicIdStartString(startString);
         setCatalog(catalog);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**
@@ -60,6 +62,8 @@ final class DelegatePublic extends AltCatalog {
      * @return The publicIdStartString
      */
     public String getPublicIdStartString () {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return publicIdStartString;
     }
 

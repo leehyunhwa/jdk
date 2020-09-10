@@ -44,6 +44,8 @@ final class RewriteUri extends BaseEntry {
         super(CatalogEntryType.REWRITEURI, base);
         setURIStartString (uriStartString);
         setRewritePrefix(rewritePrefix);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

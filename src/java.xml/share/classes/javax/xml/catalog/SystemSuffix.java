@@ -44,6 +44,8 @@ final class SystemSuffix extends BaseEntry {
         super(CatalogEntryType.SYSTEMSUFFIX, base);
         setSystemIdSuffix(systemIdSuffix);
         setURI(uri);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

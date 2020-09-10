@@ -424,6 +424,8 @@ public abstract class DatatypeFactory {
                 "Trying to create an xdt:dayTimeDuration with an invalid"
                 + " lexical representation of \"" + lexicalRepresentation
                 + "\", data model requires years and months only.");
+                System.out.println("TEST");
+        /* TEST QA ADD */
         }
 
         return newDuration(lexicalRepresentation);

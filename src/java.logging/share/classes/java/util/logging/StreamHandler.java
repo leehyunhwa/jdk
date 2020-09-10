@@ -161,6 +161,8 @@ public class StreamHandler extends Handler {
                         throws SecurityException, java.io.UnsupportedEncodingException {
         super.setEncoding(encoding);
         if (output == null) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             return;
         }
         // Replace the current writer with a writer for the new encoding.

@@ -71,6 +71,8 @@ public final class CatalogManager {
         Util.validateUrisSyntax(uris);
         CatalogImpl catalog = new CatalogImpl(features, uris);
         catalog.load();
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return catalog;
     }
 
@@ -82,6 +84,8 @@ public final class CatalogManager {
      */
     public static CatalogResolver catalogResolver(Catalog catalog) {
         if (catalog == null) CatalogMessages.reportNPEOnNull("catalog", null);
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return new CatalogResolverImpl(catalog);
     }
 

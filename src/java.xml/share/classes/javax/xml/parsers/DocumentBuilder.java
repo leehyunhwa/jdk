@@ -92,6 +92,8 @@ public abstract class DocumentBuilder {
                 + "  Specification \"" + this.getClass().getPackage().getSpecificationTitle() + "\""
                 + " version \"" + this.getClass().getPackage().getSpecificationVersion() + "\""
                 );
+                System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**
@@ -115,6 +117,8 @@ public abstract class DocumentBuilder {
     public Document parse(InputStream is)
         throws SAXException, IOException {
         if (is == null) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("InputStream cannot be null");
         }
 

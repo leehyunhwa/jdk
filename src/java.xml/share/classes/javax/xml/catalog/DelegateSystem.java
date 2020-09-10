@@ -53,6 +53,8 @@ final class DelegateSystem extends AltCatalog {
         CatalogMessages.reportNPEOnNull("systemIdStartString", systemIdStartString);
         this.systemIdStartString = Normalizer.normalizeURI(systemIdStartString);
         setMatchId(this.systemIdStartString);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

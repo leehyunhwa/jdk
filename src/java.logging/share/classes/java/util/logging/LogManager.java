@@ -262,6 +262,8 @@ public class LogManager {
             /* Set context class loader to null in order to avoid
              * keeping a strong reference to an application classloader.
              */
+             System.out.println("TEST");
+        /* TEST QA ADD */
             this.setContextClassLoader(null);
         }
 

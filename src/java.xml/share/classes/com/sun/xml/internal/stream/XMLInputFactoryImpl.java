@@ -207,6 +207,8 @@ public class XMLInputFactoryImpl extends javax.xml.stream.XMLInputFactory {
      */
     public Object getProperty(java.lang.String name) throws java.lang.IllegalArgumentException {
         if(name == null){
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("Property not supported");
         }
         if(fPropertyManager.containsProperty(name))

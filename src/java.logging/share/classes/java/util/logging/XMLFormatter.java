@@ -104,6 +104,8 @@ public class XMLFormatter extends Formatter {
         useInstant = (manager == null)
             || manager.getBooleanProperty(
                     this.getClass().getName()+".useInstant", true);
+                    System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     // Append a two digit number.

@@ -39,6 +39,8 @@ class CatalogEntry extends GroupEntry {
      */
     public CatalogEntry(String base, String... attributes) {
         super(base, attributes);
+        System.out.println("TEST");
+        /* TEST QA ADD */
         setType(CatalogEntryType.CATALOGENTRY);
     }
 

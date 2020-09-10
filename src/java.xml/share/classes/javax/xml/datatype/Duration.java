@@ -286,6 +286,8 @@ public abstract class Duration {
      *
      */
     public int getHours() {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return getField(DatatypeConstants.HOURS).intValue();
     }
 

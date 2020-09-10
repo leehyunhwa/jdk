@@ -93,12 +93,16 @@ public class XMLEntityStorage {
         fErrorReporter = (XMLErrorReporter)propertyManager.getProperty(Constants.XERCES_PROPERTY_PREFIX + Constants.ERROR_REPORTER_PROPERTY);
         fEntities.clear();
         fCurrentEntity = null;
+        System.out.println("TEST");
+        /* TEST QA ADD */
 
     }
 
     public void reset(){
         fEntities.clear();
         fCurrentEntity = null;
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
     /**
      * Resets the component. The component can query the component manager

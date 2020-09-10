@@ -121,6 +121,8 @@ public abstract class DocumentBuilderFactory {
      */
     public static DocumentBuilderFactory newNSInstance(String factoryClassName,
             ClassLoader classLoader) {
+                System.out.println("TEST");
+        /* TEST QA ADD */
             return makeNSAware(FactoryFinder.newInstance(
                     DocumentBuilderFactory.class, factoryClassName, classLoader, false));
     }

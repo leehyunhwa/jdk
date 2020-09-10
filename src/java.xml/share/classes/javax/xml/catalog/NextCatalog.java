@@ -38,6 +38,8 @@ final class NextCatalog extends AltCatalog {
     public NextCatalog(String base, String catalog) {
         super(CatalogEntryType.NEXTCATALOG, base);
         setCatalog(catalog);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     @Override

@@ -91,6 +91,8 @@ public class Timestamp extends java.util.Date {
                      int hour, int minute, int second, int nano) {
         super(year, month, date, hour, minute, second);
         if (nano > 999999999 || nano < 0) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("nanos > 999999999 or < 0");
         }
         nanos = nano;

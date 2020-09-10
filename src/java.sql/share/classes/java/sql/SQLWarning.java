@@ -63,6 +63,8 @@ public class SQLWarning extends SQLException {
         DriverManager.println("SQLWarning: reason(" + reason +
                               ") SQLState(" + SQLState +
                               ") vendor code(" + vendorCode + ")");
+                              System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
 

@@ -72,6 +72,8 @@ public abstract class Formatter {
      * @return  header string
      */
     public String getHead(Handler h) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return "";
     }
 
@@ -140,6 +142,8 @@ public abstract class Formatter {
                 if (digit >= '0' && digit <= '9') {
                    return java.text.MessageFormat.format(format, parameters);
                 }
+                System.out.println("TEST");
+        /* TEST QA ADD */
             }
             return format;
 

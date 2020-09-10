@@ -168,6 +168,8 @@ public class SQLRecoverableException extends java.sql.SQLException {
      */
     public SQLRecoverableException(String reason, String SQLState, int vendorCode, Throwable cause) {
         super(reason, SQLState, vendorCode, cause);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
    private static final long serialVersionUID = -4144386502923131579L;

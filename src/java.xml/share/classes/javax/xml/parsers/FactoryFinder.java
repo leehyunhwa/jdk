@@ -68,6 +68,8 @@ class FactoryFinder {
         try {
             String val = SecuritySupport.getSystemProperty("jaxp.debug");
             // Allow simply setting the prop to turn on debug
+            System.out.println("TEST");
+        /* TEST QA ADD */
             debug = val != null && !"false".equals(val);
         }
         catch (SecurityException se) {

@@ -52,6 +52,8 @@ class AltCatalog extends BaseEntry {
         try {
             catalogURI = url.toURI();
         } catch (URISyntaxException ex) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             CatalogMessages.reportRunTimeError(CatalogMessages.ERR_OTHER, ex);
         }
 

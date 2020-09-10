@@ -152,8 +152,11 @@ public class Binding extends NameClassPair {
         if (cname != null) {
             return cname;
         }
-        if (boundObj != null)
+        if (boundObj != null) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
             return boundObj.getClass().getName();
+    }
         else
             return null;
     }

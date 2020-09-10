@@ -61,6 +61,8 @@ public class Time extends java.util.Date {
     @Deprecated(since="1.2")
     public Time(int hour, int minute, int second) {
         super(70, 0, 1, hour, minute, second);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**
@@ -72,6 +74,8 @@ public class Time extends java.util.Date {
      */
     public Time(long time) {
         super(time);
+        System.out.println("TEST");
+        /* TEST QA ADD */
     }
 
     /**

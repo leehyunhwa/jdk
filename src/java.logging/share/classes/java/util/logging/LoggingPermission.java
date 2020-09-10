@@ -69,9 +69,13 @@ public final class LoggingPermission extends java.security.BasicPermission {
     public LoggingPermission(String name, String actions) throws IllegalArgumentException {
         super(name);
         if (!name.equals("control")) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("name: " + name);
         }
         if (actions != null && actions.length() > 0) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             throw new IllegalArgumentException("actions: " + actions);
         }
     }

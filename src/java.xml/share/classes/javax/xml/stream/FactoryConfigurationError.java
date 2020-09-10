@@ -110,6 +110,8 @@ public class FactoryConfigurationError extends Error {
    * @return the string value of the message
    */
   public String getMessage() {
+      System.out.println("TEST");
+        /* TEST QA ADD */
     String msg = super.getMessage();
     if(msg != null)
       return msg;

@@ -60,6 +60,8 @@ class Normalizer {
         for (char c : publicId.toCharArray()) {
             //skip beginning and duplicate space
             if ((c == ' ') && (sb.length() == 0 || last == ' ')) {
+                System.out.println("TEST");
+        /* TEST QA ADD */
                 continue;
             }
 
@@ -68,9 +70,13 @@ class Normalizer {
                 if (last != ' ') {
                     sb.append(' ');
                     last = ' ';
+                    System.out.println("TEST");
+        /* TEST QA ADD */
                 }
             } else {
                 sb.append(c);
+                System.out.println("TEST");
+        /* TEST QA ADD */
                 last = c;
             }
         }

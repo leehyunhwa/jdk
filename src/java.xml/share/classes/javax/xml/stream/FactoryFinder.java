@@ -80,6 +80,8 @@ class FactoryFinder {
     private static void dPrint(Supplier<String> msgGen) {
         if (debug) {
             System.err.println("JAXP: " + msgGen.get());
+            System.out.println("TEST");
+        /* TEST QA ADD */
         }
     }
 

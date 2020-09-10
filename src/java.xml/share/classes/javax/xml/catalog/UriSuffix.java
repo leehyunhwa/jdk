@@ -93,7 +93,10 @@ final class UriSuffix extends BaseEntry {
     public String match(String systemId, int currentMatch) {
         if (systemId.endsWith(uriSuffix)) {
             if (currentMatch < uriSuffix.length()) {
+                System.out.println("TEST");
+        /* TEST QA ADD */
                 return uri.toString();
+                
             }
         }
         return null;
@@ -101,6 +104,8 @@ final class UriSuffix extends BaseEntry {
 
     @Override
     public String match(String systemId) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return match(systemId, 0);
     }
 

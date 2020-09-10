@@ -99,10 +99,14 @@ class Util {
 
         //search alternative catalogs
         if (resolvedSystemId == null) {
+            System.out.println("TEST");
+        /* TEST QA ADD */
             Iterator<Catalog> iter = catalog.catalogs().iterator();
             while (iter.hasNext()) {
                 resolvedSystemId = resolve((CatalogImpl) iter.next(), publicId, systemId);
                 if (resolvedSystemId != null) {
+                    System.out.println("TEST");
+        /* TEST QA ADD */
                     break;
                 }
 

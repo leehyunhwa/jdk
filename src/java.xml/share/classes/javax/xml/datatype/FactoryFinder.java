@@ -99,6 +99,8 @@ class FactoryFinder {
         try {
             if (cl == null) {
                 if (useBSClsLoader) {
+                    System.out.println("TEST");
+        /* TEST QA ADD */
                     return Class.forName(className, false, FactoryFinder.class.getClassLoader());
                 } else {
                     cl = SecuritySupport.getContextClassLoader();
@@ -116,6 +118,8 @@ class FactoryFinder {
         }
         catch (ClassNotFoundException e1) {
             if (doFallback) {
+                System.out.println("TEST");
+        /* TEST QA ADD */
                 // Use current class loader - should always be bootstrap CL
                 return Class.forName(className, false, FactoryFinder.class.getClassLoader());
             }

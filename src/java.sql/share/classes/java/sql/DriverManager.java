@@ -152,10 +152,7 @@ public class DriverManager {
         if (sec != null) {
             sec.checkPermission(SET_LOG_PERMISSION);
             System.out.println("TEST");
-            System.out.println("TEST");
-            System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
+
         }
             logStream = null;
             logWriter = out;

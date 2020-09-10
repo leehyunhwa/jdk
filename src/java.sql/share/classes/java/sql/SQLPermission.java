@@ -134,6 +134,8 @@ public final class SQLPermission extends BasicPermission {
      */
 
     public SQLPermission(String name) {
+        System.out.println("TEST");
+        /* TEST QA ADD */
         super(name);
     }
 

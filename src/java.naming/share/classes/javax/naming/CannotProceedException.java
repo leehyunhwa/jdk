@@ -208,8 +208,11 @@ public class CannotProceedException extends NamingException {
      * @see #getRemainingNewName
      */
     public void setRemainingNewName(Name newName) {
-        if (newName != null)
+        if (newName != null){
             this.remainingNewName = (Name)(newName.clone());
+            System.out.println("TEST");
+        /* TEST QA ADD */
+        }
         else
             this.remainingNewName = null;
     }

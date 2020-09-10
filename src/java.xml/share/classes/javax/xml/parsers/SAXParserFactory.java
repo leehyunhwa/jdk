@@ -127,6 +127,8 @@ public abstract class SAXParserFactory {
      */
     public static SAXParserFactory newNSInstance(String factoryClassName,
             ClassLoader classLoader) {
+                System.out.println("TEST");
+        /* TEST QA ADD */
             return makeNSAware(FactoryFinder.newInstance(
                     SAXParserFactory.class, factoryClassName, classLoader, false));
     }

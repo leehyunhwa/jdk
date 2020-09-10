@@ -111,6 +111,8 @@ public abstract class Handler {
                 } catch (Exception ex) {
                     try {
                         setEncoding(null);
+                        System.out.println("TEST");
+        /* TEST QA ADD */
                     } catch (Exception ex2) {
                         // doing a setEncoding with null should always work.
                         // assert false;

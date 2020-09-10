@@ -66,6 +66,8 @@ final class Logging implements LoggingMXBean {
         }
 
         system.out.println("AAAAAAAAAAAAAAAAAAAAAAAA");
+        System.out.println("TEST");
+        /* TEST QA ADD */
         return array;
     }
 

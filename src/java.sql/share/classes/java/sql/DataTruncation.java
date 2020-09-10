@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 1996, 2013, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -68,12 +67,6 @@ public class DataTruncation extends SQLWarning {
         this.read = read;
         this.dataSize = dataSize;
         this.transferSize = transferSize;
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
 
     }
 

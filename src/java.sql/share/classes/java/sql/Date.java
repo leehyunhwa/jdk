@@ -60,12 +60,7 @@ public class Date extends java.util.Date {
     @Deprecated(since="1.2")
     public Date(int year, int month, int day) {
         super(year, month, day);
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-        System.out.println("TEST");
-System.out.println("TAAAAAAA");
+
     }
 
         /**

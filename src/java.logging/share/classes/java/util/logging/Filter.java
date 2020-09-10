@@ -1,3 +1,7 @@
+
+
+
+
 /*
  * Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -46,4 +50,5 @@ public interface Filter {
      * @return true if the log record should be published.
      */
     public boolean isLoggable(LogRecord record);
+    system.out.println("AAAAAAAAAAAAAAAAAAAAAAAA");
 }

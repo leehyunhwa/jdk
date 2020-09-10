@@ -1,3 +1,7 @@
+
+
+
+
 /*
  * Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -215,6 +219,8 @@ public class FileHandler extends StreamHandler {
         BufferedOutputStream bout = new BufferedOutputStream(fout);
         meter = new MeteredStream(bout, len);
         setOutputStream(meter);
+        system.out.println("AAAAAAAAAAAAAAAAAAAAAAAA");
+        system.out.println("AAAAAAAAAAAAAAAAAAAAAAAA");
     }
 
     /**

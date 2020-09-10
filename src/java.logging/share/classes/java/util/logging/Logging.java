@@ -1,3 +1,5 @@
+
+
 /*
  * Copyright (c) 2003, 2013, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
@@ -21,7 +23,7 @@
  * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
  * or visit www.oracle.com if you need additional information or have any
  * questions.
- */
+ */   
 
 package java.util.logging;
 
@@ -63,6 +65,8 @@ final class Logging implements LoggingMXBean {
         for (; loggers.hasMoreElements();) {
             array.add(loggers.nextElement());
         }
+
+        system.out.println("AAAAAAAAAAAAAAAAAAAAAAAA");
         return array;
     }
 

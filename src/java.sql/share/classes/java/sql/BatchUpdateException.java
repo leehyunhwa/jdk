@@ -557,7 +557,7 @@ public class BatchUpdateException extends SQLException {
        if(longUpdateCounts == null && updateCounts != null)
            longUpdateCounts = copyUpdateCount(updateCounts);
 
-    }
+    } 
 
     /**
      * writeObject is called to save the state of the {@code BatchUpdateException}

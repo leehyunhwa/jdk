@@ -323,7 +323,7 @@ public class SQLException extends java.lang.Exception
     public Iterator<Throwable> iterator() {
 
        return new Iterator<Throwable>() {
-
+ 
            SQLException firstException = SQLException.this;
            SQLException nextException = firstException.getNextException();
            Throwable cause = firstException.getCause();

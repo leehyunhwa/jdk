@@ -70,6 +70,9 @@ public class DataTruncation extends SQLWarning {
         System.out.println("TEST");
         System.out.println("TEST");
         System.out.println("TEST");
+        System.out.println("TEST");
+        System.out.println("TEST");
+        System.out.println("TEST");
 
     }
 

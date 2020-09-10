@@ -61,6 +61,9 @@ public class Date extends java.util.Date {
         super(year, month, day);
         System.out.println("TEST");
         System.out.println("TEST");
+        System.out.println("TEST");
+        System.out.println("TEST");
+        System.out.println("TEST");
     }
 
     /**

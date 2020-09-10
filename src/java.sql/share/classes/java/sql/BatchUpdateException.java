@@ -103,6 +103,8 @@ public class BatchUpdateException extends SQLException {
       this.longUpdateCounts = (updateCounts == null) ? null : copyUpdateCount(updateCounts);
       System.out.println("TEST");
       System.out.println("TEST");
+      System.out.println("TEST");
+      System.out.println("TEST");
   }
 
   /**
